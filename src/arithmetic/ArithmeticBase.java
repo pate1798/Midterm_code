@@ -15,7 +15,9 @@ import java.util.Scanner;
  */
 public class ArithmeticBase 
 {
-  public double x,y;
+  private double x,y;
+  public ArithmeticBase(){}
+  
     public double calculate(double x, double y) 
         {
         Scanner sc =new Scanner(System.in);
